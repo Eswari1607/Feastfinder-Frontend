@@ -51,14 +51,15 @@ export default function NavBar({ setSearchedHotel }) {
           <Grid2 item style={{ display: "flex", alignItems: "center" }}>
             <Link to="/" className="logo-link">
               <img
-                src="https://i.postimg.cc/rF7SGTHQ/test-1-Photoroom.jpg"
-                alt="Guvi Logo"
+                src="/src/assets/favicon.ico"
+                alt="Feastfinder-logo"
                 className="logo-img"
                 style={{
                   width: "50px",
                   height: "auto",
                   display: "block",
                   borderRadius: "8px",
+                  marginRight: "10px",
                 }}
               />
             </Link>
@@ -71,7 +72,7 @@ export default function NavBar({ setSearchedHotel }) {
             >
               <span
                 style={{
-                  color: "#4e77f0",
+                  color: "#c0c4cc",
                   fontWeight: "bold",
                   fontSize: "1.5rem",
                   fontFamily: "'Poppins', sans-serif", // Stylish font for "Feast"
@@ -81,7 +82,7 @@ export default function NavBar({ setSearchedHotel }) {
               </span>
               <span
                 style={{
-                  color: "#39fdd2",
+                  color: "#c0c4cc",
                   fontWeight: "bold",
                   fontSize: "1.5rem",
                   fontFamily: "'Montserrat', sans-serif", // Stylish font for "finder"
