@@ -51,7 +51,7 @@ export default function NavBar({ setSearchedHotel }) {
           <Grid2 item style={{ display: "flex", alignItems: "center" }}>
             <Link to="/" className="logo-link">
               <img
-                src="/src/assets/favicon.ico"
+                src="/assets/favicon.ico"
                 alt="Feastfinder-logo"
                 className="logo-img"
                 style={{
